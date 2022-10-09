@@ -1,0 +1,147 @@
+@font-face { font-family: Nunito; src: url('fonts/Nunito/Nunito-VariableFont_wght.ttf'); } 
+@font-face { font-family: Nunito; font-weight: light; src: url('fonts/Nunito/static/Nunito-Light.ttf');}
+@font-face { font-family: Nunito; font-weight: normal; src: url('fonts/Nunito/static/Nunito-Normal.ttf');}
+
+body {
+    height: 100%;
+    text-align: center;
+    font-family: arial;
+    font-size:11pt;
+}
+
+div.container {
+    background-color: white;
+    align-content: stretch;
+    width:100%;
+    height: 100%;
+    
+}
+
+div.main {
+    background-color: rgb(30, 108, 147);
+    color: white;
+    width: 100%;
+    font-family: 'Nunito', 'Arial';
+    font-weight: 300; 
+    font-variant: light; 
+    vertical-align: baseline;
+}
+
+div.main_title {
+    padding-top: 2%;
+    width:75%;
+    display:inline-block;
+    font-variant:light;
+    font-size: 25pt;
+    font-family: 'Nunito';
+}
+
+div.main_nav {
+    display:inline-block;
+    color: rgb(159, 197, 232);
+    padding-bottom: 3%;
+    font-weight: 900;
+    font-size:smaller;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+a.nav {
+    color: rgb(159, 197, 232);
+    text-decoration: none;
+    display: inline;
+}
+
+span.innerlink {
+    text-decoration:underline dashed;
+    color: rgb(159, 197, 232);
+    margin-right:5px;
+}
+
+span.innerlink:hover {
+    text-decoration: underline;
+    color: rgb(159, 197, 232);
+}
+
+div.desc {
+    color: rgb(12, 51, 93);
+    width:75%;
+    margin: auto;
+    padding-bottom: 5%;
+    padding-top:2%;
+    align-content: center;
+    text-align: left;
+    line-height:1.7em;
+    font-size: 11pt;
+}
+
+h2 {
+    color: rgb(11, 83, 148);
+    font-family: 'Nunito', 'Arial'; 
+    font-size: 14pt; 
+    font-variant: normal; 
+    vertical-align: baseline;
+}
+
+a.desc {
+    color: rgb(29, 77, 129);
+    text-decoration: underline dashed ;
+}
+
+p.pubs {
+    text-align: justify;
+}
+
+div.footer {
+    background-color: rgb(30, 108, 147);
+    color:white;
+    flex: 1 1 auto;
+    padding-top: 3%;
+    padding-bottom:0%;
+    align-content: stretch;
+    width:100%;
+    height: 100%;
+    font-size: smaller;
+}
+
+div.footer_text {
+    width:75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+/*** Icons ***/
+.email_icon {
+    vertical-align: middle;
+    background-image: url('icons/email_icon_white_line.png');
+    height: 25px ;
+    width: 25px;
+    background-size:contain;
+    display: inline-block;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.github_icon {
+    background-image: url('icons/github_icon_white_line.png');
+    height: 25px ;
+    width: 25px;
+    background-size:contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.orcid_icon {
+    background-image: url('icons/ORCIDiD_icon.png');
+    height: 15px ;
+    width: 15px;
+    background-size:contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:5px;
+    margin-right:5px;
+}
