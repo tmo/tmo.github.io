@@ -4,6 +4,7 @@
 
 body {
     height: 100%;
+    margin: 0;
     text-align: center;
     font-family: arial;
     font-size:11pt;
@@ -65,7 +66,7 @@ span.innerlink:hover {
 
 div.desc {
     color: rgb(12, 51, 93);
-    width:75%;
+    width:65%;
     margin: auto;
     padding-bottom: 5%;
     padding-top:2%;
@@ -105,7 +106,7 @@ div.footer {
 }
 
 div.footer_text {
-    width:75%;
+    width:65%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
